@@ -1,15 +1,73 @@
-/* @font-face {
+@import 'style.reset.css';
+@import 'style.base.css';
+@import 'style.header.css';
+@import 'style.main.css';
+@import 'style.article.css';
+@import 'style.footer.css';
+
+@font-face {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    src: "fonts/Roboto-Black.ttf";
+    src: url('./fonts/Roboto/Roboto-Black.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Roboto';
     font-style: italic;
     font-weight: 700;
-    src: "fonts/Roboto-BlackItalic.ttf";
-} */
-
-/* @import 'style.reset.css'; */
-@import 'style.base.css';
+    src: url('./fonts/Roboto/Roboto-BlackItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    src: url('./fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 600;
+    src: url('./fonts/Roboto/Roboto-BoldItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('./fonts/Roboto/Roboto-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    src: url('./fonts/Roboto/Roboto-MediumItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url('./fonts/Roboto/Roboto-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    src: url('./fonts/Roboto/Roboto-LightItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    src: url('./fonts/Roboto/Roboto-Thin.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 200;
+    src: url('./fonts/Roboto/Roboto-ThinItalic.ttf') format('truetype');
+}
