@@ -1,0 +1,36 @@
+#navbar {
+    height: 75px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    position: fixed;
+    z-index: 10000;
+    width: 1000px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #f9faf8;
+    font-family: 'Roboto', Impact, sans-serif;
+    font-weight: 700;
+    background-color: #1f2937;
+    background-color: rgba(31,41,55,1);
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 10px;
+    outline: red solid 1px;
+    font-size: 24px;
+    font-family: inherit;
+}
+
+#logo > span {
+    font-family: inherit;
+}
+
+#menu {
+
+}

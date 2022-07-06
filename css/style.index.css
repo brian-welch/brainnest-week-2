@@ -1,6 +1,6 @@
 @import 'style.reset.css';
 @import 'style.base.css';
-@import 'style.header.css';
+@import 'style.header.css'; /* includes navabar and hero */
 @import 'style.main.css';
 @import 'style.article.css';
 @import 'style.footer.css';
