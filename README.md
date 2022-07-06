@@ -4,10 +4,10 @@
 <ul>
     <li>Key Take-aways From Week II:
         <ul>
-            <li>one</li>
-            <li>two</li>
-            <li>three</li>
-            <li>four</li>
+            <li>Prioritization Hierarchy</li>
+            <li>Inline Styling is for Noobs</li>
+            <li>Gold, Silver, and Bronze Specificity</li>
+            <li>Class Selector Order in CSS files is King - not the order they are listed in HTML</li>
         </ul>
     </li>
 </ul>
