@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./fonts/Roboto-Black.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    src: url('./fonts/Roboto-BlackItalic.ttf') format('ttf');
+}
+
+h1 {
+    font-family: 'Roboto', serif;
+    color: blueviolet;
+}
