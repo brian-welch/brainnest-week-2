@@ -21,7 +21,7 @@
         <header>
             <nav id="navbar">
                 <div id="logo">
-                    <figure id="logoImage">
+                    <figure id="logoImage"> 
                     </figure>
                     <span id="logoTitle">
                         Marvel Hot-Takes
@@ -83,11 +83,14 @@
             </section>
         </main>
         <footer>
-            <ul>
-                <li>Left Column</li>
-                <li>Center Column</li>
-                <li>Right Column</li>
-            </ul>
+            <div id="leftFootercolumn"></div>
+            <div id="rightFooterColumn"></div>
+            <div id="footerDisclaimer">
+                Copyright &copy; - Brian C Welch - 
+                <script>
+                    window.onload = (event) => {$("#footerDisclaimer").append(new Date(Date.now()).toDateString());}
+                </script>
+            </div>
         </footer>
     </body>
 </html>
