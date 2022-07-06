@@ -1,12 +1,20 @@
+* {
+    font-family: 'Open Sans', serif;
+}
+
 h1, h2, h3, h4, h5 {
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 
 html {
     background-color: rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 0 1000px rgba(0,0,0,0.2);
 }
 
 body {
     width: 1000px;
     margin: auto;
+    min-height: 100vh;
+    position: relative;
+    outline: blue 1px solid;
 }
