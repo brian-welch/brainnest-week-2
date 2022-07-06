@@ -2,7 +2,11 @@ h1, h2, h3, h4, h5 {
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 
-header, footer, .bg-dark {
-    background-color: #1f2937;
-    background-color: rgba(31, 41, 55, 1);
+html {
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+body {
+    width: 1000px;
+    margin: auto;
 }
