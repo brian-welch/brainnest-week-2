@@ -1,7 +1,5 @@
-# Brainnest Week II
-<hr>
+<h1>Brainnest Week II</h1>
 <h2>Github Pages: https://brian-welch.github.io/brainnest-week-2/</h2>
-<hr>
 <h3>CSS Focus</h3>
 <ul>
     <li>Key Take-aways From Week II:
