@@ -14,17 +14,32 @@ section {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    outline: red dotted 1px;
+}
+
+.other-publisher-block {
+    margin: 25px;
 }
 
 .info-block-figure {
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
+    padding: 2px;
     overflow: hidden;
-    border-radius: 20px;
-    box-shadow: 0 0 0 5px rgba(56,130,246,1);
+    border-radius: 15px;
+    box-shadow: 0 0 0 4px rgba(56,130,246,1);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
+.info-block-figure > img {
+    filter: grayscale(75%);
+    opacity: 0.8;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 300ms ease-out;
+}
+
+.info-block-figure > img:hover {
+    filter: grayscale(0%);
+}
