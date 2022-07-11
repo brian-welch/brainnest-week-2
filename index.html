@@ -25,14 +25,11 @@
             crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
         <!-- Font Awesome Icons here: https://fontawesome.com/v6/search?q=lists&m=free -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.index.css">
     </head>
     <body>
         <header>
-            <div id="stickyNavbarContainer">
+            <!--<div id="stickyNavbarContainer">-->
                 <nav id="navbar">
                     <div id="logo">
                         <figure id="logoImage">
@@ -65,43 +62,58 @@
                         </a>
                     </div>
                 </nav>
-            </div>
+            <!--</div>-->
             <div id="hero">
+                <div id="heroLeftColumn">
+                    <h1>This website is awesome</h1>
+                    <p>Lorem ipsum dolor sit amet, ei mei summo clita, eum cibo delenit erroribus at. An ius fastidii senserit
+                        sententiae, no mel iuvaret erroribus voluptatum.</p>
+                    <button>
+                        Sign Up
+                    </button>
+                </div>
+                <div id="heroRightColumn">
+                    <figure>
+                        <img
+                            src="http://insidepulse.com/wp-content/uploads/2017/04/Jim-Lee-X-Men-art-e1492221794311.jpg"
+                            alt="An illustration of some key X-Men by Jim Lee">
+                    </figure>
+                </div>
             </div>
         </header>
         <main id="homepageSectionBlock">
             <section id="infoBlocks">
-                <h3>Information on Other Comic Book Publishers</h3>
-                <ul>
-                    <li>
+                <h2>Information on Other Comic Book Publishers</h2>
+                <div class="blocks-container">
+                    <div class="other-publisher-block">
                         <a href="#">
                             <figure class="info-block-figure">
-                                <img src="#" alt="">
+                                <img src="https://d29xot63vimef3.cloudfront.net/image/pitt/2-1.jpg" alt="The PITT number 2 comic book cover by Image Comics" width="200">
                             </figure>
                         </a>
-                    </li>
-                    <li>
+                    </div>
+                    <div class="other-publisher-block">
                         <a href="#">
                             <figure class="info-block-figure">
-                                <img src="#" alt="">
+                                <img src="http://www.gothamcalling.com/wp-content/uploads/2017/06/batman-516.png" alt="Batman number 51 comic book cover by DC Comics" width="200">
                             </figure>
                         </a>
-                    </li>
-                    <li>
+                    </div>
+                    <div class="other-publisher-block">
                         <a href="#">
                             <figure class="info-block-figure">
-                                <img src="#" alt="">
+                                <img src="https://d1466nnw0ex81e.cloudfront.net/n_iv/600/745227.jpg" alt="The Next Men number 1 comic book cover by Dark Horse Comics" width="200">
                             </figure>
                         </a>
-                    </li>
-                    <li>
+                    </div>
+                    <div class="other-publisher-block">
                         <a href="#">
                             <figure class="info-block-figure">
-                                <img src="#" alt="">
+                                <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550502717l/30058117._SY475_.jpg" alt="4001AD number 1 comic book cover by Valient Comics" width="200">
                             </figure>
                         </a>
-                    </li>
-                </ul>
+                    </div>
+                </div>
             </section>
             <section id="quoteBlock">
                 <p class="quote-text"></p>
@@ -113,12 +125,12 @@
             </section>
         </main>
         <footer>
-            <div id="leftFootercolumn"></div>
+            <div id="leftFooterColumn"></div>
             <div id="rightFooterColumn"></div>
             <div id="footerDisclaimer">
-                Copyright &copy; - Brian C Welch - 
+                <span>Copyright &copy; - Brian C Welch - </span>
                 <script>
-                    window.onload = (event) => {$("#footerDisclaimer").append(new Date(Date.now()).toDateString());}
+                    window.onload = (event) => {$("#footerDisclaimer > span").append(new Date(Date.now()).toDateString());}
                 </script>
             </div>
         </footer>
