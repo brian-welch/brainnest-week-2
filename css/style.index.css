@@ -1,6 +1,6 @@
 @import 'style.reset.css';
 @import 'style.base.css';
-@import 'style.header.css';
+@import 'style.header.css'; /* includes navabar and hero */
 @import 'style.main.css';
 @import 'style.article.css';
 @import 'style.footer.css';
@@ -70,4 +70,14 @@
     font-style: italic;
     font-weight: 200;
     src: url('./fonts/Roboto/Roboto-ThinItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    src: url('./fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    src: url('./fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth,wght.ttf') format('truetype');
 }
