@@ -1,5 +1,6 @@
 #navbar {
     position: fixed;
+    z-index: 100000;
     top: 0;
     height: 75px;
     width: 1100px;
@@ -65,8 +66,6 @@
     box-shadow: 0 0 0 1px rgba(56,130,246,0.0);
     text-shadow: 0 1px 0 rgba(249,250,248,0);
     transition: all ease-out 333ms;
-    /* text-decoration: inherit;
-    text-underline-offset: 3px; */
 }
 
 #menu button:hover {
@@ -76,6 +75,4 @@
         calc(1px * 0.5) 0 0 rgba(249,250,248,1),
         0 0 3px rgba(56,130,246,1),
         0 0 3px rgba(56,130,246,1);
-    /* color: white; */
-
 }
