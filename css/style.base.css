@@ -7,6 +7,7 @@
 h1, h2, h3, h4, h5 {
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     font-weight: 600;
+    letter-spacing: 0;
 }
 
 h1 {
@@ -21,7 +22,6 @@ html {
 body {
     width: 1100px;
     margin: auto;
-    min-height: 300vh;
     position: relative;
     padding-top: 75px;
     background-color: rgba(249,250,248,0.0);
