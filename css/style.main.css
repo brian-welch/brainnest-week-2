@@ -94,3 +94,43 @@ section {
     text-align: right;
     font-weight: bolder;
 }
+
+/* ******* CTA Section ******* */
+
+#homepageCTA {
+    padding: 50px 0;
+}
+
+.cta-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(56,130,246,1);
+    border-radius: 10px;
+    color: rgba(229,231,235,1);
+    padding: 50px 100px;
+}
+
+.copy-column {
+    flex: 3;
+}
+
+.copy-column > h4 {
+    font-weight: 400;
+}
+
+.button-column {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-column > button {
+    border: none;
+    border-radius: 5px;
+    color: rgba(229,231,235,1);
+    box-shadow: 0 0 0 2px rgba(229,231,235,1);
+    background: rgba(56,130,246,1);
+    padding: 6px 30px;
+}
