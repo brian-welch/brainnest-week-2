@@ -10,6 +10,7 @@
     align-items: center;
     flex-direction: row;
     justify-content: center;
+    margin-top: 0;
 }
 
 #heroLeftColumn, #heroRightColumn {
@@ -19,6 +20,7 @@
 
 #heroLeftColumn > p {
     color: rgba(249,250,248,0.7);
+    font-size: 18px;
 }
 
 #heroLeftColumn button {
