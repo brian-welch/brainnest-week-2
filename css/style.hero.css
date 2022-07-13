@@ -25,6 +25,8 @@
 #heroLeftColumn > p {
     color: rgba(249,250,248,0.7);
     font-size: 18px;
+    margin: 20px 0;
+    text-align: justify;
 }
 
 #heroLeftColumn button {
