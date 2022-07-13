@@ -13,6 +13,10 @@ section {
     padding-bottom: 100px;
 }
 
+#infoBlocks.character-summary {
+    padding-bottom: 30px;
+}
+
 #infoBlocks > h2 {
     font-weight: 700;
     font-size: 36px;
@@ -24,6 +28,56 @@ section {
     align-items: flex-start;
     justify-content: center;
     padding: 20px;
+}
+
+#infoBlocks > .blocks-container.character-summary {
+    width: 100%;
+}
+
+.left-character-column, .right-character-column {
+    flex: 1;
+    padding: 20px;
+}
+
+.left-character-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+.left-character-column > figure {
+    padding: 20px;
+    width: 52%;
+}
+
+.left-character-column > figure > img {
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px rgba(31,41,55,1);
+}
+
+.right-character-column > ul {
+    padding: 20px;
+}
+
+.right-character-column > ul > li {
+    margin: 0 0 20px 0;
+    line-height: 1.8em;
+}
+
+.right-character-column > ul > li > ul > li {
+    margin: 0 0 0 30px;
+}
+
+.right-character-column > ul > li > ul > li > i {
+    color: rgba(31,41,55,0.2);
+}
+
+.right-character-column > ul > li > ul > li > i.mark {
+    color: rgba(218,165,32,0.8);
+    position: relative;
+    margin: -3px;
 }
 
 .other-publisher-block {
@@ -81,6 +135,10 @@ section {
     box-shadow:
         554px 0 0 rgba(229,231,235,1),
         -554px 0 0  rgba(229,231,235,1);
+}
+
+#quoteBlock.character-summary {
+    margin-bottom: 0;
 }
 
 .quote-text > blockquote {

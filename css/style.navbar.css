@@ -78,7 +78,7 @@
 }
 
 .active {
-    box-shadow: 0 0 1px 1px rgba(56,130,246,1);
+    box-shadow: 0 0 1px calc(1px * 0.5) rgba(56,130,246,1);
     text-shadow:
         0 0 3px rgba(56,130,246,1);
 }

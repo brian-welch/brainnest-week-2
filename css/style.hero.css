@@ -13,6 +13,10 @@
     margin-top: 0;
 }
 
+#hero.content-page-hero {
+    padding: 30px 10px;
+}
+
 #heroLeftColumn, #heroRightColumn {
     width: 50%;
     padding: 15px;
@@ -21,6 +25,8 @@
 #heroLeftColumn > p {
     color: rgba(249,250,248,0.7);
     font-size: 18px;
+    margin: 20px 0;
+    text-align: justify;
 }
 
 #heroLeftColumn button {
@@ -38,4 +44,9 @@
     overflow: hidden;
     border-radius: 2px;
     box-shadow: 0 0 0 1px rgba(0,0,0,0.99);
+}
+
+#heroRightColumn > figure > img.content-page-hero-image {
+    width: auto;
+    height: calc(100vh - 170px);
 }
